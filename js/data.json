@@ -1,0 +1,68 @@
+
+    [
+                  {
+                    "name": "Nexus 7",
+                    "shortname":"4",
+                    "type": "Tablet",
+                    "OS": "Android 5.0.2",
+                    "Sub_Product_Area": "MaSS"
+                  },
+                  {
+                    "name":"Macbook Pro Laptop(with Retina)",
+                    "shortname":"7",
+                    "type": "Laptop",
+                    "OS": "OS X 10.10.1 Yosemite",
+                    "Sub_Product_Area": "LABS"
+                  },
+                  {
+                    "name":"Samsung Galaxy S II",
+                    "shortname":"2",
+                    "type": "Phone",
+                    "OS": "Android 4.0.3",
+                    "Sub_Product_Area": "MaSS"
+                  },
+                  {
+                    "name":"Microsoft Surface 2",
+                    "shortname":"11",
+                    "type": "Tablet",
+                    "OS": "Windows 8",
+                    "Sub_Product_Area": "CLIENT"
+                  },
+                  {
+                    "name":"Mac Mini (2010)",
+                    "shortname":"12",
+                    "type": "Desktop Computer",
+                    "OS": "OS X 10.10 Yosemite",
+                    "Sub_Product_Area": "LABS"
+                  },
+                  {
+                    "name":"Apple MacBook Pro",
+                    "shortname":"13",
+                    "type": "Notebook",
+                    "OS": "OS X 10.10.3 Yosemite",
+                    "Sub_Product_Area": "MaSS"
+                  },
+                  {
+                    "name":"Nokia 920",
+                    "shortname":"14",
+                    "type": "Phone",
+                    "OS": "Windows Phone",
+                    "Sub_Product_Area": "Technology"
+                  },
+                  {
+                    "name":"HTC Desire",
+                    "shortname":"15",
+                    "type": "Phone",
+                    "OS": "Android 2.3.3",
+                    "Sub_Product_Area": "MaSS"
+                  },
+
+                  {
+                    "name":"iPhone 6",
+                    "shortname":"16",
+                    "type": "Phone",
+                    "OS": "iOS 8.3",
+                    "Sub_Product_Area": "CLIENT"
+                  }
+                ] 
+

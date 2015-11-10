@@ -1,0 +1,119 @@
+<!DOCTYPE>
+<html ng-app="app">
+    <head>
+        <title>IFS Devices</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="device_style.css">
+        <link href="request_style.css" rel="stylesheet" type="text/css"/>
+        
+        <meta name="viewport" content="width=device-width, height=device-height, maximum-scale=1, minimum-scale=1, user-scalable=0, initial-scale=1">
+        <script src="angular/angular.min.js"></script>
+        <script src="angular/angular-route.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/controller.js"></script>
+
+    </head>
+
+    <body>
+
+        <HEADER class="main_header" >
+            <!-- logo -->
+            <div class="n1">
+                <a href="index.html">
+                    <img src="img/IFS_logo.png" alt="Home">
+                </a>
+
+            </div> 
+            <!-- icons and search -->
+            <div class="n2">
+                <!-- icons -->
+                <div class="n2_1">				
+                    <div class="menu" ><img src="img/hamburger_logo.png" alt="Home"></div>
+                    <a href="#/home"><img src="img/home_logo.png" alt="Home"></a>
+                    <a href="#/devices"><img src="img/device_logo.png" alt="Devices"></a>
+                    <a href="#/request"><img src="img/request_logo.png" alt="Request"></a>
+
+                </div>
+                <!-- search -->
+                <div class="n2_2">
+                    <a href="#"><img src="img/search_logo.png" alt="Search"></a>
+                </div>
+
+            </div>
+            <!-- Not decided -->
+            <!-- 		<div class="n3"></div> -->
+        </HEADER>
+        <!-- n1 -->
+        <NAV class="main_nav">
+            <a name="go" ng-hide = "custom">
+            <!-- ignore header -->
+            <div class="ignore"></div>
+            <div class="productArea" style="overflow-y: auto;">
+                <h3>Product Area</h3>
+                <ul>
+                    <li>
+                        <a href="#collapse1" href="" class="b_count"><img width="15px" height="15px" src="img/down_icon.png"> Technology</a> <a href="" class="count">20</a>
+                        <div id="collapse1">
+                            <ul >
+                                <li>
+                                    <a href="#" class="b_count">Mass</a>
+                                    <a href="#" class="count">10</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="b_count">Mass</a>
+                                    <a href="#" class="count">10</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="b_count">Mass</a>
+                                    <a href="#" class="count">10</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="" class="b_count">XXXXX</a> <a href="" class="count">20</a></li>
+                    <li><a href="" class="b_count">XXXXX</a> <a href="" class="count">20</a></li>
+                </ul>	
+
+            </div>
+
+            <div class="deviceType">
+                <h3>Device Type</h3>
+                <ul>Phone</ul>
+                <ul>Tablet</ul>
+                <ul>Notebook</ul>
+                <ul>Laptop</ul> 
+                <ul>Desktop</ul>	
+            </div>
+
+            <div class="platform">
+                <h3>Platform</h3>
+                <ul>Android</ul>
+                <ul>ios</ul>
+                <ul>MAC</ul>
+                <ul>Windows</ul> 
+            </div>
+
+            <div class="settings">
+                <ul>Settings</ul>
+            </div>
+           </a>
+        </NAV>
+
+        <!-- n2 -->
+        <SECTION class="main_section" ng-view>
+
+        </SECTION>
+        <!-- n3 -->
+        <!-- <ASIDE class="main_aside"></ASIDE> -->
+
+        <FOOTER></FOOTER>
+
+        <!-- 	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+                <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="http://code.jquery.com/jquery.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
+
+
+    </body>
+</html>

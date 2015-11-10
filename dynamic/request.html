@@ -1,0 +1,87 @@
+<section>
+    <div class="ignore"></div>
+    <h1>{{some}}</h1>
+    <center>
+        <form ng-submit="sendform()">
+        <table>
+            <tr>
+                <td>Username</td>
+                <td><input type="text" ng-model="request.userName" placeholder="sanmlk" required/></td>
+            </tr>            
+            <tr>
+                <td>Device Name</td>
+                <td><input type="text" ng-model="request.deviceName" placeholder="Nexus 7" required/></td>
+            </tr>
+            <tr>
+                <td>Type</td>
+                <td>
+                    <select ng-model="request.type">
+                        <option value="phone">Phone</option>
+                        <option value="tablet">Tablet</option>
+                        <option value="laptop">Laptop</option>
+                        <option value="desktop">Desktop</option>                        
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Priority</td>
+                <td>
+                    <select ng-model="request.priority">
+                        <option value="high">High</option>
+                        <option value="medium">Medium</option>
+                        <option value="low">Low</option>                     
+                    </select>                
+                </td>
+            </tr>            
+            <tr>
+                <td>Platform</td>
+                <td>
+                    <select ng-model="request.platform">
+                        <option value="android">Android</option>
+                        <option value="mac">MAC</option>
+                        <option value="ios">IOS</option>                     
+                        <option value="windows">Windows</option>
+                        <option value="windows_phone">Windows Phone</option>                         
+                    </select>
+                </td>
+            </tr>  
+            <tr>
+                <td>Size (inches)</td>
+                <td><input type="text" ng-model="request.size" placeholder='4.7"'/></td>
+            </tr>
+            <tr>
+                <td>Display Resolution (pixels)</td>
+                <td><input type="text" ng-model="request.resolution" placeholder="1280 x 500"/></td>
+            </tr>
+            <tr>
+                <td>Location</td>
+                <td>
+                    <select ng-model="request.location" >
+                        <option value="cmb">CMB</option>
+                        <option value="lkp">LKP</option>                      
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Comment</td>
+                <td>
+                    <textarea ng-model="request.comment"></textarea>
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+            </tr>                                     
+
+        </table>
+        <br>
+        <button ng-submit="sendform()" type="submit">Request</button>
+        
+    </form>
+        <p>{{request}}</p>
+        <pre>{{request | json}}</pre>
+    </center>
+
+
+
+</section>

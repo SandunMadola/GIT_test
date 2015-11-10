@@ -1,0 +1,40 @@
+
+<!--div class="ignore"></div>
+<h1>{{some}}</h1-->
+
+
+<section>
+    
+    <div class="ignore"></div>
+    
+    <div class="main_content">
+    <div class="ifs_banner" ng-controller="deviceCtrl">
+    
+        <center>
+            <ul class="devicelist">
+                <li class = "device cf" ng-repeat="item in devices| filter: query"> 
+                    <a href="#/details/{{devices.indexOf(item)}}">
+                        <img ng-src="images/{{item.shortname}}.jpg">
+                        <div class="info">
+                            <h3> {{item.name}} </h3>
+                            <h4> {{item.type}} </h4>
+                            <h4> {{item.OS}} </h4>
+                            <h4> {{item.Sub_Product_Area}} </h4>
+                            
+                            <button type="button">Borrow</button>
+                            <br><br>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+    </div>
+            
+
+            
+
+                                        
+
+        </center>
+    </div>              
+
+</section>

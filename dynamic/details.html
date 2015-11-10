@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<section class="deviceinfo">
+    
+  <div class="ignore"></div>
+  <div class="main_content">
+  <div class="ifs_banner" ng-controller="detailsCtrl">
+        
+  <div class="device cf" ng-model="devices">
+    <img ng-src="images/{{devices[whichItem].shortname}}.jpg">  
+    <h1>{{devices[whichItem].name}}</h1>
+    <div class="info">
+      
+      <h2>{{devices[whichItem].type}}</h2>
+      <h3>{{devices[whichItem].OS}}</h3>
+      <h3>{{devices[whichItem].Sub_Product_Area}}</h3>
+      
+      <!--div class="bio">{{devices[whichItem].bio}}</div-->
+    </div>
+  </div>
+      
+  </div>
+  </div>
+  <a href="#/devices">&laquo; Back to All devices</a>
+</section>
